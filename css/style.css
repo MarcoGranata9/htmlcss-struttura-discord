@@ -26,7 +26,6 @@ nav ul {
 .wrapper {
     display: flex;
     border: 1px dashed black;
-
 }
  
 /* Header */
@@ -34,7 +33,6 @@ header {
     background-color: lightblue;
     height: 100px;
     padding: 1rem;
-
 }
 
 .gold {
@@ -46,7 +44,6 @@ header {
     width: calc(100% / 3);
     display: flex;
     border: 1px dashed black;
-    
 }
 
 nav {
@@ -54,17 +51,30 @@ nav {
     display: flex;
     justify-content: center;
     border: 1px dashed black;
-    
 }
 
 .login {
     width: calc(100% / 3);
     text-align: end;
     border: 1px dashed black;
-    
 }
 
 nav li {
     margin: 0 5px;
+}
+
+/* Main */
+
+.bg-blue {
+    background-color: blue;
+    min-height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero {
+    background-color: blueviolet;
+    min-height: 400px;
+    width: 60%;
 }
 
