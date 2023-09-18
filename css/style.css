@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    color: black;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+/* Common */
+.container {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.wrapper {
+    display: flex;
+    border: 1px dashed black;
+
+}
+ 
+/* Header */
+header {
+    background-color: lightblue;
+    height: 100px;
+    padding: 1rem;
+
+}
+
+.gold {
+    background-color: goldenrod;
+    padding: 1rem;
+}
+
+.logo {
+    width: calc(100% / 3);
+    display: flex;
+    border: 1px dashed black;
+    
+}
+
+nav {
+    width: calc(100% / 3);
+    display: flex;
+    justify-content: center;
+    border: 1px dashed black;
+    
+}
+
+.login {
+    width: calc(100% / 3);
+    text-align: end;
+    border: 1px dashed black;
+    
+}
+
+nav li {
+    margin: 0 5px;
+}
+
