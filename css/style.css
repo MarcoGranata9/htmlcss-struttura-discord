@@ -25,7 +25,6 @@ nav ul {
 
 .wrapper {
     display: flex;
-    border: 1px dashed black;
 }
  
 /* Header */
@@ -76,5 +75,24 @@ nav li {
     background-color: blueviolet;
     min-height: 400px;
     width: 60%;
+}
+
+.bg-white {
+    background-color: white;
+    min-height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-blue {
+    background-color: #1e90ff;
+    width: calc(100% / 2);
+    min-height: 400px;
+}
+
+.section-pink {
+    background-color: #ffc0cb;
+    width: calc(100% /3);
+    min-height: 400px;
 }
 
