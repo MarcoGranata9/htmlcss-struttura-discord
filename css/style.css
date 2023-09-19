@@ -30,7 +30,6 @@ nav ul {
 /* Header */
 header {
     background-color: lightblue;
-    height: 100px;
     padding: 1rem;
 }
 
@@ -92,7 +91,67 @@ nav li {
 
 .section-pink {
     background-color: #ffc0cb;
-    width: calc(100% /3);
+    width: calc(100% / 3);
     min-height: 400px;
 }
 
+.bg-gray {
+    background-color: gray;
+    min-height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-green {
+    background-color: green;
+    width: 80%;
+    min-height: 700px;
+}
+
+/* Footer */
+.bg-black {
+    background-color: #23272a;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-row {
+    width: calc(80% / 5);
+    background-color: #1e90ff;
+    min-height: 400px;
+}
+
+.f-row1 {
+    width: calc(80% / 3);
+    background-color: #ffc0cb;
+    min-height: 400px;
+}
+
+hr {
+    background-color: gray;
+    height: 2px;
+}
+
+.bg-black-s {
+    background-color: #23272a;
+    height: 100px;
+    align-items: end;
+    justify-content: center;
+}
+
+.bg-acqua {
+    background-color: aquamarine;
+    height: 50px;
+    width: 70%;
+    justify-content: space-between;
+    
+}
+
+button {
+    background-color: aquamarine;
+}
+
+.gray {
+    background-color: gray;
+}
